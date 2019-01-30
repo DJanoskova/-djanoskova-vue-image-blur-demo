@@ -1,6 +1,6 @@
 <template>
   <div class="image-blur" :style="styleDimensions">
-    <img class="image-blur__thumb" ref="thumb" v-if="thumb" src="">
+    <img class="image-blur__thumb" ref="thumb" src="">
     <img class="image-blur__large" ref="image" src="" :class="{'loaded': loaded}" v-if="loadedThumb">
   </div>
 </template>
