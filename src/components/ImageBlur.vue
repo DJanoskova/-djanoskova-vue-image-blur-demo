@@ -32,7 +32,10 @@ export default {
       this.loaded = false
       this.loadedThumb = false
       await this.handleLoadThumb()
-      await this.handleLoadImage()
+      this.loadedThumb = true
+      this.$nextTick(async () => {
+        await this.handleLoadImage()
+      })
     },
     loadImage (image, url) {
       return new Promise(resolve => {
@@ -48,7 +51,6 @@ export default {
       const thumb = this.$refs.thumb
       if (!thumb) return
       await this.loadImage(thumb, this.thumb)
-      this.loadedThumb = true
     },
     async handleLoadImage () {
       const image = this.$refs.image
@@ -77,31 +79,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.image-blur {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.image-blur img {
-  transition: 0.4s;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  filter: blur(30px);
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.image-blur__large {
-  opacity: 0;
-}
-
-.image-blur__large.loaded {
-  filter: blur(0);
-  opacity: 1;
-}
-</style>
