@@ -1,4 +1,4 @@
-# Blurry image Load
+# @djanoskova/vue-image-blur demo
 
 ### `npm install @djanoskova/vue-image-blur --save`
 
