@@ -1,5 +1,7 @@
 # Blurry image Load
 
+### `npm install @djanoskova/vue-image-blur --save`
+
 ### Demo
 See the working example at <a href="http://blurryimages.danajanoskova.sk" target="_blank">blurryimages.danajanoskova.sk</a>.
 
@@ -17,7 +19,8 @@ Either specify the width and height as props or style the .image-blur class to h
 
 ```
 <script>
-import ImageBlur from './components/ImageBlur'
+import { ImageBlur } from '@djanoskova/vue-image-blur'
+import '@djanoskova/vue-image-blur/public/css/imageBlur.css'
 
 export default {
   data () {
