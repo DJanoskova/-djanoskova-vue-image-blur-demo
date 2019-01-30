@@ -1,7 +1,7 @@
 # Blurry image Load
 
 ### Demo
-See the working example at [blurryimages.danajanoskova.sk](https://blurryimages.danajanoskova.sk).
+See the working example at <a href="http://blurryimages.danajanoskova.sk" target="_blank">blurryimages.danajanoskova.sk</a>.
 
 ### Component usage
 ```
