@@ -15,8 +15,6 @@
 
     <template v-if="selectedImage">
       <ImageBlur
-        width="390"
-        height="500"
         :image="selectedImage.large"
         :thumb="selectedImage.thumb"/>
       <p>
@@ -32,7 +30,6 @@
 import { images } from './const'
 
 import { ImageBlur } from '@djanoskova/vue-image-blur'
-import '@djanoskova/vue-image-blur/public/css/imageBlur.css'
 
 export default {
   data () {
