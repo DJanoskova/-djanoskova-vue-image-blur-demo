@@ -24,8 +24,7 @@ export default {
   data () {
     return {
       loaded: false,
-      loadedThumb: false,
-      loadingImage: null
+      loadedThumb: false
     }
   },
   methods: {
