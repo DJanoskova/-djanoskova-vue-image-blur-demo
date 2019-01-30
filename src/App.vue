@@ -22,7 +22,7 @@
       </p>
     </template>
 
-    <h4><a href="https://github.com/DJanoskova/Vue.js-BlurryImageLoad" target="_blank">BlurryImageLoad @ GitHub</a></h4>
+    <h4><a href="https://github.com/DJanoskova/-djanoskova-vue-image-blur" target="_blank">vue-image-blur @ GitHub</a></h4>
   </div>
 </template>
 
