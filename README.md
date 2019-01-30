@@ -2,8 +2,11 @@
 
 ### `npm install @djanoskova/vue-image-blur --save`
 
-### Demo
-See the working example at <a href="http://blurryimages.danajanoskova.sk" target="_blank">blurryimages.danajanoskova.sk</a>.
+#### Demo
+See the working example at <a href="https://vue-image-blur.herokuapp.com/" target="_blank">https://vue-image-blur.herokuapp.com/</a>
+
+#### Component code
+The component source code is located at <a href="https://github.com/DJanoskova/Vue.js-BlurryImageLoad" target="_blank">https://github.com/DJanoskova/Vue.js-BlurryImageLoad</a>
 
 ### Component usage
 ```
