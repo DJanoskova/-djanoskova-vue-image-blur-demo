@@ -6,7 +6,7 @@
 See the working example at <a href="https://vue-image-blur.herokuapp.com/" target="_blank">https://vue-image-blur.herokuapp.com/</a>
 
 #### Component code
-The component source code is located at <a href="https://github.com/DJanoskova/Vue.js-BlurryImageLoad" target="_blank">https://github.com/DJanoskova/Vue.js-BlurryImageLoad</a>
+The component source code is located at <a href="https://github.com/DJanoskova/-djanoskova-vue-image-blur">https://github.com/DJanoskova/-djanoskova-vue-image-blur</a>
 
 ### Component usage
 ```
