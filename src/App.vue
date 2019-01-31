@@ -35,7 +35,7 @@ export default {
   data () {
     return {
       images: images,
-      selectedImage: null
+      selectedImage: images[0]
     }
   },
   components: {

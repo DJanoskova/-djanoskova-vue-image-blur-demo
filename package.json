@@ -9,7 +9,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@djanoskova/vue-image-blur": "^0.2.6",
+    "@djanoskova/vue-image-blur": "^0.2.7",
     "express": "^4.16.4",
     "vue": "^2.5.21"
   },
